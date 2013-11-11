@@ -84,5 +84,14 @@ hion distortion.
 Instruments
 \end_layout
 
+\begin_layout Standard
+The abberations can be divided into monochromatic and chromatic abberations,
+ so had to use two different cameras: The Edmund Optics USB camera and the
+ monochromatic Edmund Optics USB camera.
+ The colour camera was used in conjunction with a white light lamp, while
+ the black and white camera was used with a laser.
+ 
+\end_layout
+
 \end_body
 \end_document
