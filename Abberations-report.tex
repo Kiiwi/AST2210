@@ -2,7 +2,7 @@
 %% Do not edit unless you really know what you are doing.
 \documentclass[english]{article}
 \usepackage[T1]{fontenc}
-\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
 \setcounter{secnumdepth}{-1}
 \setlength{\parskip}{\smallskipamount}
 \setlength{\parindent}{0pt}
@@ -15,6 +15,27 @@
 \numberwithin{figure}{section}
 
 \makeatother
+
+% This makes it very simple to include images:
+% Example of usage: \bilde{images/coma.bmp}{fig:coma}{This is an image of coma distortion.}
+\newcommand{\bilde}[3]{
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=\textwidth]{#1}
+        \caption{#3 \label{#2}}
+    \end{figure}
+}
+\newcommand{\bildeto}[4]{
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=0.96\textwidth]{#1}
+        \includegraphics[width=0.96\textwidth]{#2}
+        \caption{#4 \label{#3}}
+    \end{figure}
+}
+
+
+\author{Viljar Drevland Hardersen, Tommy Lee, Paul Magnus Sørensen-Clark}
 
 \usepackage{babel}
 \begin{document}
@@ -38,4 +59,19 @@ so had to use two different cameras: The Edmund Optics USB camera
 and the monochromatic Edmund Optics USB camera. The colour camera
 was used in conjunction with a white light lamp, while the black and
 white camera was used with a laser. 
+
+\section{Chromatic abberation}
+
+\section{Seidel abberations}
+
+\subsection{Spherical abberation}
+\input{spherical.tex}
+
+\subsection{Coma}
+
+\subsection{Astigmatism}
+\input{astigmatism.tex}
+
+\subsection{Barrel/pincushion distortion}
+
 \end{document}
