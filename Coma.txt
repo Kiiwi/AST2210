@@ -1,3 +1,5 @@
+\bilde{ast2210_lab2_pics/coma/coma.png}{fig:coma}{}
+
 Coma, or comatic aberration, refers to when imperfect lenses 
 (or other components) cause the image projection of an off-axis 
 light source to be distorted in a way that makes the light source
@@ -5,9 +7,13 @@ appear to have a trail of blurry circles directed away from the
 optical axis. For this experiment, we used a lens specificially 
 designed to give coma. 
 
-%\includegraphics[width=\linewidth]{ast2210_lab2_pics/coma_0.75mm.bmp}
+In the figure \vref{fig:coma}, we see the idea behind coma, 
+simply that the incoming light rays 
 
-\bilde{ast2210_lab2_pics/coma/coma_0.75mm.bmp}{fig:coma1}{Coma}
-%\bilde{ast2210_lab2_pics/coma_0.63mm.bmp}{fig:coma2}{Coma}
-%\bilde{ast2210_lab2_pics/coma_0.50mm.bmp}{fig:coma3}{Coma}
 
+\bilde{ast2210_lab2_pics/coma/coma_0.75mm.png}{fig:coma1}{}
+\bilde{ast2210_lab2_pics/coma/coma_0.63mm.png}{fig:coma2}{}
+\bilde{ast2210_lab2_pics/coma/coma_0.50mm.png}{fig:coma3}{}
+
+Looking at figure \vref{fig:coma2}, we clearly see the aforementioned
+trail
