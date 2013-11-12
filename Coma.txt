@@ -1,4 +1,4 @@
-\bilde{ast2210_lab2_pics/coma/coma.png}{fig:coma}{}
+\bilde{ast2210_lab2_pics/coma/coma.png}{fig:coma}{Source: Wikipedia}
 
 Coma, or comatic aberration, refers to when imperfect lenses 
 (or other components) cause the image projection of an off-axis 
