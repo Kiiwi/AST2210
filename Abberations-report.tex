@@ -1,6 +1,6 @@
 %% LyX 2.0.0 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
-\documentclass[english]{article}
+\documentclass[twocolumn]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \setcounter{secnumdepth}{-1}
@@ -12,7 +12,7 @@
 \usepackage{graphicx, color}
 \usepackage{amsmath}
 \usepackage{varioref} % fancy captions
-\usepackage[margin=3cm]{geometry} % smaller margins
+%\usepackage[margin=2cm]{geometry} % smaller margins
 \usepackage{grffile} % Ex­tended file name sup­port for graph­ics, allows periods in filenames
 
 \makeatletter
@@ -27,15 +27,15 @@
 \newcommand{\bilde}[3]{
     \begin{figure}[htbp]
         \centering
-        \includegraphics[width=\textwidth]{#1}
+        \includegraphics[width=0.5\textwidth]{#1}
         \caption{#3 \label{#2}}
     \end{figure}
 }
 \newcommand{\bildeto}[4]{
     \begin{figure}[htbp]
         \centering
-        \includegraphics[width=0.96\textwidth]{#1}
-        \includegraphics[width=0.96\textwidth]{#2}
+        \includegraphics[width=0.5\textwidth]{#1}
+        \includegraphics[width=0.5\textwidth]{#2}
         \caption{#4 \label{#3}}
     \end{figure}
 }
@@ -46,7 +46,7 @@
 \usepackage{babel}
 \begin{document}
 
-\title{AST2210 - Lab exercise: aberrations}
+\title{AST2210 - Lab exercise: Aberrations}
 
 \maketitle
 
